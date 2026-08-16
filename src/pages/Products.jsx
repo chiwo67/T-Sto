@@ -8,21 +8,23 @@ export default function Products() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-   fetch("https://fakestoreapi.com/products")
-      .then((res) => {
+ async function fetchProducts() {
+      try {
+        const res = await fetch("https://fakestoreapi.com/products");
         if (!res.ok) throw new Error("Failed to fetch product data");
-        return res.json();
-      })
-      .then((data) => {
-        setProducts(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        setError(err.message);
-        setLoading(false);
-      });
-  }, []);
 
+        const data = await res.json();
+        setProducts(data);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchProducts();
+  }, []);
+  
   const filteredProducts = products.filter((p) =>
     p.title.toLowerCase().includes(search.toLowerCase())
   );
