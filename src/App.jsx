@@ -26,6 +26,7 @@ export default function App() {
               <Route path="specs" element={<Specs />} />
             </Route>
             <Route path="/login" element={<Login />} />
+            <Route path="/checkout" element={<Checkout />} />
           </Routes>
         </BrowserRouter>
       </CartProvider>
