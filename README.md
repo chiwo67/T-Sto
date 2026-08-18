@@ -21,8 +21,7 @@
 -   HTML
 
 ## Live Link
--  https://t-store-lxbbhq7oy-chiwo.vercel.app
-
+-  https://vercel.com/chiwo/t-store/43Sp2ymcpnYmrKANkMAwohfojGGD
 ## Features
 - Browse through different products
 - Easy 
