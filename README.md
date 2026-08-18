@@ -1,16 +1,43 @@
-# React + Vite
+# T-Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- T-Store is a simple and efficient key-value store implemented in Python. It provides a lightweight solution for storing and retrieving data in a structured manner.
 
-Currently, two official plugins are available:
+## Problems Faced
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Checkout page
+- Login
 
-## React Compiler
+## Challenges and Solution
+**Challenges**: Finding affordable, flexible, E-commerce store
+**Solution**: T-Store provdes simple, fast, and reliable product discovery with transparent pricing and flexible commerce options
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Market Gap
+- Many existing e-commerce platforms are either too complex or too expensive for small businesses and individual sellers. T-Store aims to fill this gap by offering a user-friendly and cost-effective solution for online selling.
 
-## Expanding the ESLint configuration
+## Techologies Used
+-   Tailwind
+-   React
+-   Css
+-   HTML
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Link
+-  https://t-store-lxbbhq7oy-chiwo.vercel.app
+
+## Features
+- Browse through different products
+- Easy 
+- 
+
+## Pages
+- Home Page
+- Product Page
+- Checkout Page
+
+## Getting Started
+1. Enter the website
+2. Browse through products
+3. Add products to your cart
+4. Proceed to checkout and complete your purchase
+
+## Conclusion
+- T-Store is designed to provide a seamless shopping experience for users while also being accessible and affordable for sellers. With its simple interface and efficient functionality, it aims to become a go-to platform for online commerce.
