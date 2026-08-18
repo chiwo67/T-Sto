@@ -10,6 +10,7 @@ import ProductDetails, {
   Specs,
 } from "./pages/ProductDetails";
 import Login from "./pages/Login";
+import Checkout from "./pages/Checkout";
 
 export default function App() {
   return (
